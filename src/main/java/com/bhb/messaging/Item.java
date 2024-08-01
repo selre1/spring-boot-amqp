@@ -24,6 +24,7 @@ public class Item {
 
     Item(String id, String name, String description, double price) {
         this(name, description, price);
+
         this.id = id;
     }
 
